@@ -28,6 +28,14 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my_bike {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .website {
@@ -64,11 +72,26 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding: 32px;
 }
 
 .pics {
     display: flex;
     justify-content: space-around;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+
+.display {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 6px solid lightblue;
+    border-radius: 10px;
 }
 
 .bottom {
